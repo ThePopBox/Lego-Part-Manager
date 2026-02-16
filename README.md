@@ -1,6 +1,28 @@
+![Release](https://img.shields.io/github/v/release/thepopbox/lego-part-manager)
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/thepopbox/lego-part-manager/releases)
+
 # Lego Part Manager
 Lego part manager application with Bricklink import compatibility, built using JavaFX for Windows
 <br>A modular JavaFX desktop application for organizing Lego parts, colors, and sets with persistent local file storage. 
+<hr>
+
+## Table of Contents
+- [Lego Part Manager](#lego-part-manager)
+- [Overview](#overview)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Architecture](#architecture)
+  - [Model Layer](#model-layer)
+  - [Service Layer](#service-layer)
+  - [Data Layer](#data-layer)
+  - [Application Layer](#application-layer)
+- [Data Persistence](#data-persistence)
+- [Technology Stack](#technology-stack)
+- [Technical Concepts](#technical-concepts)
+- [Challenges Solved](#challenges-solved)
+- [Skills Demonstrated](#skills-demonstrated)
+
+<hr>
 
 # Overview
 This application provides the user with:
@@ -12,6 +34,7 @@ This application provides the user with:
   <li>Importable list of missing parts for Bricklink</li>
   <li>Modular Java structure (Module-info.java)</li>
 </ul>
+<hr>
 
 # Screenshots
 <b>Main Application Dashboard Screenshot</b>
@@ -32,6 +55,7 @@ This screenshot shows the main dashboard, along with which sets require what par
 <br><b>Part Image Import Screenshot</b><br>
 ![partimage](readme_assets/partimage.png)
 </details>
+<hr>
 
 # Installation
 <b>Option One - Download Executable (Windows)</b>
@@ -54,6 +78,7 @@ This screenshot shows the main dashboard, along with which sets require what par
   <li>mvn clean install</li>
   <li>Run the application using your IDE or JavaFX runtime</li>
 </ol>
+<hr>
 
 # Architecture
 This Lego part management application follows a layered design structure:
@@ -85,6 +110,7 @@ These classes handle application startup and runtime execution
   <li>Launcher</li>
   <li>LegoTester</li>
 </ul>
+<hr>
 
 # Data Persistence
 This Lego part management application automatically generates a data directory within the user's machine (C Drive) to store application data
@@ -95,6 +121,7 @@ This Lego part management application automatically generates a data directory w
   <li>Persistent object state storage</li>
   <li>Structured application configuration management</li>
 </ul>
+<hr>
 
 # Technology Stack
 <ul>
@@ -104,6 +131,7 @@ This Lego part management application automatically generates a data directory w
   <li>Modular Java (module-info.java)</li>
   <li>File-base persistence</li>
 </ul>
+<hr>
 
 # Technical Concepts 
 <ul>
@@ -116,6 +144,7 @@ This Lego part management application automatically generates a data directory w
   <li>File Persistence & Directory Management</li>
   <li>Structured Application Packaging</li>
 </ul>
+<hr>
 
 # Challenges Solved
 <b>Local Data Persistence</b>
@@ -124,6 +153,7 @@ This Lego part management application automatically generates a data directory w
 <br>Configured module dependencies to maintain modern Java standards
 <br><b>Separation Between UI & Data</b>
 <br>Avoided business logic directly inside GUI classes by introducing structured model and manager classes
+<hr>
 
 # Skills Demonstrated
 <ul>
