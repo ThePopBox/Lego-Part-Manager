@@ -1,6 +1,6 @@
 ![Release](https://img.shields.io/github/v/release/thepopbox/lego-part-manager)
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/thepopbox/lego-part-manager/releases)
-
+![License](https://img.shields.io/badge/License-MIT-blue)
 # Lego Part Manager
 Lego part manager application with Bricklink import compatibility, built using JavaFX for Windows
 <br>A modular JavaFX desktop application for organizing Lego parts, colors, and sets with persistent local file storage. 
