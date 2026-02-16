@@ -157,7 +157,7 @@ This Lego part management application automatically generates a data directory w
 
 # Skills Demonstrated
 <ul>
-  <li>JavaFX GUI deveplopment</li>
+  <li>JavaFX GUI development</li>
   <li>Modular java project management</li>
   <li>Maven project management</li>
   <li>Desktop application packaging</li>
