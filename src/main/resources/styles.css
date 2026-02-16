@@ -1,0 +1,134 @@
+/* Base button style */
+.button {
+    -fx-background-color: #feba17; /* Bright amber */
+    -fx-text-fill: F8F4E1; /* Light cream */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: Solway, "Segoe UI";
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow( gaussian , #4E1F00 , 10, 0.3, 3, 3);
+}
+
+/* adds a slight black border around the button letters */
+.button .text {
+    -fx-effect: dropshadow( one-pass-box , black , 3 , 0 , 0 , 0 );
+    -fx-text-fill: #F8F4E1;
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #e0a416; /* Slightly darker amber */
+}
+
+/* Pressed effect */
+.button:pressed {
+    -fx-background-color: #c28f14; /* Even darker amber */
+}
+
+/* Scene background with light brown color */
+.root {
+    -fx-background-color: #74512D; /* Light brown */
+}
+
+/* sets the page-title ID style */
+#page-title {
+    -fx-font-size: 24px;
+    -fx-font-family: Solway, "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-fill: #F8F4E1;
+}
+
+/* sets the scroll-title ID style */
+#scroll-title {
+    -fx-font-size: 24px;
+    -fx-font-family: Solway, "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-fill: #F8F4E1;
+}
+
+/* sets the scroll=entry ID style */
+#scroll-entry {
+    -fx-font-size: 16px;
+    -fx-font-family: Solway, "Segoe UI";
+    -fx-fill: #F8F4E1;
+}
+
+/* scroll-pane style */
+.scroll-pane {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(one-pass-box, #4E1F00, 10, 0.3, 3, 3);
+}
+
+/* Style the scroll bar arrows (increment/decrement buttons) */
+.scroll-pane .scroll-bar:vertical,
+.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #74512D; /* Light brown track */
+    -fx-pref-width: 10px; /* adjust for vertical */
+    -fx-pref-height: 10px; /* adjust for horizontal */
+}
+
+/* Arrow button hover effect */
+.scroll-pane .scroll-bar .increment-button:hover,
+.scroll-pane .scroll-bar .decrement-button:hover {
+    -fx-background-color: #603B1E; /* Light color on hover */
+}
+
+/* Arrow button style */
+.scroll-pane .scroll-bar .increment-button .arrow,
+.scroll-pane .scroll-bar .decrement-button .arrow {
+    -fx-fill: #4E1F00; /* Color of the arrow icon */
+}
+
+/* Scroll bar style */
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #603B1E;
+}
+
+/* Thumb hover effect */
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: #56321C; 
+}
+
+/* Track style */
+.scroll-pane .scroll-bar .track {
+    -fx-background-color: #74512D; 
+}
+
+/* even rool for scroll box*/
+#even-row {
+    -fx-background-color: #8B5225 ; /* Light brown */
+}
+
+/* odd row for scroll box*/
+#odd-row {
+    -fx-background-color: #9A5A28; /* Darker brown */
+}
+
+/* font used to display an error when adding a new part*/
+#error-font {
+    -fx-font-size: 16px;
+    -fx-font-family: Solway, "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , black , 3 , 0 , 0 , 0 );
+}
+
+/* adds yellow underline with a bottom shadow*/
+#yellow-underline {
+    -fx-border-color: transparent transparent #FFD700 transparent; /* Only bottom border*/
+    -fx-border-width: 0 0 2px 0; /* 2px bottom border */
+    -fx-effect: dropshadow(gaussian, #FFD700, 5, 0.3, 0, 2); /* Yellow drop shadow */
+}
+/* sets the background color of the setsvbox inside the scroll box*/
+#set-scroll-bg {
+    -fx-background-color: #74512D; /* Light brown */
+}
+
+#set-scroll-bg{
+    -fx-side: left;
+    -fx-border-width: 0px;
+    -fx-effect: dropshadow(one-pass-box, #4E1F00, 10, 0.3, 3, 3);
+}
